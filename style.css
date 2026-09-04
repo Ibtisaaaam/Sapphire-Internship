@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fc0101;
+    color: rgb(238, 243, 238);
+}
+
+header nav a {
+    color: rgb(43, 255, 71);
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f1fc5e;
+}
+
+.hero p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: rgb(209, 46, 46);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    border: 1px solid #f9fcf6;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f89797;
+}
