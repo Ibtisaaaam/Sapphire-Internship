@@ -9,12 +9,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color: #fc0101;
+    background-color: #0F172A;
     color: rgb(238, 243, 238);
 }
 
 header nav a {
-    color: rgb(43, 255, 71);
+    color: #CBD5E1;
     margin-left: 15px;
     text-decoration: none;
 }
@@ -22,7 +22,7 @@ header nav a {
 .hero {
     text-align: center;
     padding: 60px 20px;
-    background-color: #f1fc5e;
+    background-color: #F8FAFC;
 }
 
 .hero p {
@@ -32,8 +32,8 @@ header nav a {
 
 .hero button {
     padding: 10px 20px;
-    background-color: #007bff;
-    color: rgb(209, 46, 46);
+    background-color: #2563EB;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -47,11 +47,11 @@ header nav a {
 }
 
 .card {
-    border: 1px solid #f9fcf6;
+    border: 1px solid #E2E8F0;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
     text-align: center;
-    background-color: #f89797;
+    background-color: #FFFFFF;
 }
 
 @media (max-width: 768px) {
