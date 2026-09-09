@@ -1,16 +1,27 @@
-# React + Vite
+# React To-Do & Dynamic Data App (Week 1 Assignment)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the completed Week 1 practical assignment for the Web Development Internship. The project transitions from web fundamentals to building a modern dynamic React application using Vite.
 
-Currently, two official plugins are available:
+## 🚀 Key Features & Implementation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. **React Setup with Vite:** Configured development environment using Node.js and Vite.
+2. **Component Architecture & Props:** Modular component design with dynamic props passing.
+3. **State Management (`useState`):** Interactive task manager featuring dynamic task additions, status toggles, and state immutability.
+4. **Side Effects & Data Fetching (`useEffect`):** Asynchronous API integration fetching dynamic data on component mount with proper loading state management.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React, JSX, Modern JavaScript (ES6+)
+- **Build Tool:** Vite, npm
+- **Version Control:** Git & GitHub
 
-## Expanding the ESLint configuration
+## 💻 How to Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone <YOUR_GITHUB_REPOSITORY_URL>
+
+cd react-todo-app
+
+npm install
+
+npm run dev
