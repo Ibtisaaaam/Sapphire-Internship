@@ -4,7 +4,7 @@ const User = require('../models/User');
 exports.getAllProducts = async (req, res) => {
   try {
     const products = await Product.findAll({
-      include: [{ model: User, attributes: ['name', 'email'] }]
+      include:[{ model: User, attributes: ['username'] }]
     });
     res.status(200).json(products);
   } catch (error) {
